@@ -15,13 +15,13 @@ from pytesseract import pytesseract
 
 from cropper import cropper
 
+sys.path.append("./crnn/crnn.pytorch")
+sys.path.append("./ctpn")
 sys.path.append(os.getcwd())
 from ctpn.nets import model_train as model
 from ctpn.utils.rpn_msr.proposal_layer import proposal_layer
 from ctpn.utils.text_connector.detectors import TextDetector
 
-import sys
-sys.path.append("./crnn/crnn.pytorch")
 
 from crnn.crnnport import CRNNRecognizer
 

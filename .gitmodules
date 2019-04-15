@@ -1,0 +1,6 @@
+[submodule "crnn"]
+	path = crnn
+	url = https://github.com/MotamedNia/scene-text-recog.git
+[submodule "ctpn"]
+	path = ctpn
+	url = https://github.com/eragonruan/text-detection-ctpn.git
