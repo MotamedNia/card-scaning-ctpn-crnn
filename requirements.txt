@@ -27,5 +27,5 @@ tensorflow-estimator==1.13.0
 termcolor==1.1.0
 torchvision==0.2.2.post3
 urllib3==1.24.2
-Werkzeug==0.15.2
+Werkzeug==0.15.3
 yarg==0.1.9
