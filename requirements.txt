@@ -14,7 +14,7 @@ lmdb==0.94
 Markdown==3.1
 mock==3.0.4
 numpy==1.16.3
-opencv-python==3.2.0.8
+opencv-python==3.3.1.11
 pillow>=6.2.0
 pipreqs==0.4.9
 protobuf==3.7.1
